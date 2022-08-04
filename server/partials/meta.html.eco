@@ -3,7 +3,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
-<link rel="image_src" type="image/jpeg" href="/images/logo.png" />
+<link rel="image_src" type="image/jpeg" href="https://callpotential.github.io/CP-Assets/assets/favicon-32x32.png" />
+<link rel="icon" href="https://callpotential.github.io/CP-Assets/assets/favicon.ico" />
 
 <!-- Site Properities -->
 <%- @getBlock('meta').toHTML() %>

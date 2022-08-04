@@ -10,7 +10,7 @@ standalone : false
         <div class="ui logo shape">
           <div class="sides">
             <div class="active ui side">
-              <img class="ui image" src="/images/logo.png">
+              <img class="ui image" src="https://callpotential.github.io/CP-Assets/assets/favicon-32x32.png">
             </div>
           </div>
         </div>
@@ -18,32 +18,11 @@ standalone : false
       <a class="view-ui item">
         <i class="sidebar icon"></i> Menu
       </a>
-      <div id="docs-searchbox" class="item">
-        <input type="search" placeholder="Search...">
-      </div>
-      <script type="application/javascript">
-        docsearch({
-          apiKey: 'b97fcb6d1c62e4cdc4b4f3945c49d9d7',
-          indexName: 'fomantic-ui',
-          inputSelector: '#docs-searchbox > input',
-          debug: false,
-        });
-      </script>
       <div class="right menu">
         <div class="item">
-          <a class="twitter-follow-button twitter" href="https://twitter.com/fomanticui" data-show-count="false">
-            Follow
+          <a class="ui black version label" href="https://github.com/callpotential/CallPotential-UI/blob/<%= @getBranch() %>/CHANGELOG.md">
+            <%= @getVersion() %>
           </a>
-          <a class="twitter-share-button twitter"
-            href="http://twitter.com/share"
-            data-text="Fomantic-UI <%= @getVersion() %> is out!"
-            data-url="https://fomantic-ui.com"
-            data-via="fomanticui">
-          </a>
-          <script type="text/javascript">
-          window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
-          </script>
-          <iframe class="github" src="//ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
         </div>
       </div>
     </div>
@@ -52,15 +31,13 @@ standalone : false
 <div class="zoomed masthead segment">
   <div class="ui container">
     <div class="introduction">
-      <a class="ui black version label" href="https://github.com/fomantic/Fomantic-UI/blob/<%= @getBranch() %>/CHANGELOG.md">
-        <%= @getVersion() %>
-      </a>
       <h1 class="ui inverted header">
+        <img class="ui image" src="https://callpotential.github.io/CP-Assets/assets/android-chrome-192x192.png">
         <span class="library">
-          Fomantic-UI
+          CallPotential-UI
         </span>
         <span class="tagline">
-          The official community fork of Semantic-UI
+          The official CallPotential fork of Semantic-UI
         </span>
       </h1>
       <div class="ui hidden divider"></div>
@@ -262,7 +239,7 @@ standalone : false
         <p>
           Fomantic UI and Semantic UI are <b>free open source</b> projects already used in multiple <a href="http://www.quirky.com" target="_blank">large</a> scale <a href="http://www.newrepublic.com" target="_blank">production</a> environments.
         </p>
-        <a href="https://github.com/fomantic/Fomantic-UI/issues" class="ui large button">Visit GitHub</a>
+        <a href="https://github.com/callpotential/CallPotential-UI/issues" class="ui large button">Visit GitHub</a>
       </div>
     </div>
   </div>

@@ -24,7 +24,7 @@ docpadConfig = {
 		site:
 
 			# The production url of our website
-			url: "https://fomantic-ui.com"
+			url: "https://callpotential.github.io/CallPotential-UI-Docs"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [],
@@ -34,11 +34,11 @@ docpadConfig = {
 			branch: "master",
 
 			# The default title of our website
-			title: "Fomantic-UI"
+			title: "CallPotential-UI"
 
 			# The website description (for SEO)
 			description: """
-				Fomantic the official community fork of Semantic-UI
+				The official CallPotential fork of Semantic-UI
 				"""
 
 			# The website keywords (for SEO) separated by commas
@@ -65,9 +65,9 @@ docpadConfig = {
 
 		getZip: ->
 			if @site.version
-				"https://github.com/fomantic/Fomatnic-UI/archive/" + @site.version + ".zip"
+				"https://github.com/callpotential/CallPotential-UI/archive/" + @site.version + ".zip"
 			else
-				"https://github.com/fomantic/Fomantic-UI/archive/master.zip"
+				"https://github.com/callpotential/CallPotential-UI/archive/master.zip"
 
 		getPreparedTitle: ->
 			# if we have a document title, then we should use that and suffix the site's title onto it
