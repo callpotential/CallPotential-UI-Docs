@@ -525,7 +525,7 @@ blockquote .author {
 #example .main.container > p {
   font-size: 16px;
   line-height: 1.5;
-  color: rgba(0, 0, 0, 0.8);
+  /* color: rgba(0, 0, 0, 0.8); */
 }
 
 /* Link Styles */
@@ -774,9 +774,9 @@ blockquote .author {
   margin: 0 0 1em;
   padding-bottom: 0;
 }
-#example .example > p {
+/* #example .example > p {
   color: rgba(0, 0, 0, 0.8);
-}
+} */
 
 /* Message */
 #example .example .anchor + p + .ignored.message:not(.attached),
@@ -819,9 +819,9 @@ blockquote .author {
 #example .intro .example .anchor + p {
   margin-top: 0.5em;
 }
-#example .intro .example > p {
+/* #example .intro .example > p {
   color: rgba(0, 0, 0, 0.8);
-}
+} */
 
 
 #example .existing.segment:after,

@@ -2,10 +2,13 @@
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/docs.css">
 <link rel="stylesheet" type="text/css" href="/stylesheets/rtl.css">
+<link rel="stylesheet" type="text/css" href="/stylesheets/develop.css">
 
 <% else: %>
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/docs.css">
 <link rel="stylesheet" type="text/css" href="/stylesheets/rtl.css">
+<link rel="stylesheet" type="text/css" href="/stylesheets/develop.css">
 
 <% end %>
+

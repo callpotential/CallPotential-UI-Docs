@@ -33,6 +33,15 @@ themes      : ['Default', 'Colored']
     </div>
 
     <div class="example">
+      <h4 class="ui header">Checkbox (CallPotential)</h4>
+      <p>This checkbox uses CallPotential blue styling</p>
+      <div class="ui callpotential checkbox">
+        <input type="checkbox" name="example" />
+        <label>Make my profile visible</label>
+      </div>
+    </div>
+
+    <div class="example">
       <h4 class="ui header">Radio</h4>
       <p>A checkbox can be formatted as a radio element. This means it is an exclusive option.</p>
 
