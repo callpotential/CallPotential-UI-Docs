@@ -1,17 +1,6 @@
-.ui.callpotential.checkbox input:checked ~ label::after {
-  color: #EDF5FE;
-}
-
 /*--------------
-        Outline
+        Use this space for quick development of custom
+        styles before integrating them into the CallPotential
+        theme.
       ---------------*/
 
-.ui.callpotential.checkbox input:checked ~ label::before {
-  border-color: #002C60;
-  background: #0075CD;
-}
-.ui.callpotential.toggle.checkbox input:checked ~ label::after,
-.ui.callpotential.slider.checkbox input:checked ~ label::after {
-  -webkit-box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15), 0 0 0 1px blue inset;
-          box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15), 0 0 0 1px blue inset;
-}
